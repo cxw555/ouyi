@@ -1,0 +1,129 @@
+
+body {font-size: 12px;background: #f5f5f5;}
+body,button,section,div,h3,h1,ul,li,dl,dt,dd {margin:0;padding:0;}
+button {border-radius: 0;border:none;}
+a {font-size: 12px;font-family: "微软雅黑";color:#b0b0b0;text-decoration: none;}
+a:hover {text-decoration:none;}
+ul,li {list-style-type: none}
+.container a {color:#666;font-size:13px;}
+.site-top {padding:7px 0;background: #333;color:#c2c2c2;} 
+.navbar {height: 92px;margin-bottom: 0;}
+header .navbar-default {background-color: #fff;}
+header .navbar-collapse ul.navbar-nav {float: right; margin-right: 0;}
+.navbar-nav li a{width:90px;font-size:16px;text-align:center;height: 92px;line-height: 92px;padding:0;}
+.navbar-nav li a:hover {border-bottom: solid 4px #f25807;}
+.navbar-brand {margin-top:10px;}
+
+.footer_nav li {float:left; }
+.footer_nav li a {color:#666;border-right:solid 1px #999;display:block;padding:0 10px; float:left;line-height: 14px;}
+.copyright {margin-top:10px;color:#999;}
+.footer {background: #fafafa;padding-top:20px;}
+/*以上是common CSS*/
+.elite {padding:30px 0;}
+.elite h3 {font-size: 22px;background: url(../images/icon.png) no-repeat 0 center;height:35px;text-indent: 28px;padding-top:5px;margin-bottom: 20px;}
+.elite h3 span {float:right;}
+.elite h4 {font-size: 13px;}
+.box {border: 1px solid #eee;}
+.icon img {width:100%;}
+.box-gray {background: #fafafa;padding: 10px;}
+
+.info {color:#f25807;font-size:12px;}
+.price {color:#f25807;font-size:22px;}
+.price i{font-size:12px;margin-right: 5px;}
+.price span {float:right;color:#b1b1b1;font-size: 12px;padding-top: 5px;}
+.list {border: 1px solid #eee; background: #fff;margin-bottom:10px;padding:10px 0;padding-left:20px;}
+.content-row-bg,.content-row-no-bg {margin:30px 0;}
+.content-row-no-bg {background: #fff;padding-bottom:30px;}
+.box-gray2 {background: #fafafa;display:block;border: 1px solid #eee;margin:0 18px 20px;padding:10px;overflow: hidden;}
+.listtitle span {float:right;color:#b1b1b1;}
+.subcontent {color:#666;}
+.text-yellow {color:#f35806;}
+/*以上是首页CSS*/
+
+
+/*login&register*/
+.register {color:#666;padding:60px 0;margin:-30px 0;background: url(../images/login_bg.png);overflow: hidden;}
+.register-box {width:800px;margin:0 auto;padding:20px;background: #fff;}
+.login {padding:80px 0;background-position:-100px center; }
+.login-box {width:360px;height:400px;padding:20px;background: #fff;float:right;}
+.input-box {width:320px;margin:0 auto;}
+.register h4 {text-align: center;margin-bottom:20px;font-weight: normal;}
+.register dl {clear: both;height:50px;line-height: 40px;}
+.register dt {float:left; width:80px;}
+.register dd {float:left;}
+.input-box input {width:220px;color:#999;}
+.register dd span {display: block;position: relative;z-index: 1;width:100%;color:red;height:30px;line-height: 30px;}
+.register .verify .input-text {width:160px;height:30px;line-height: 30px;}
+.register .verify i {font-style: normal;}
+.register .verify button {display: block;width:60px;background: #45b0e4;height: 30px;line-height: 30px;float:right;color:#fff;}
+.submit {width:220px;background: #f35806;color:#fff;border-radius:0;border:none;padding:0;height: 30px;line-height: 30px;}
+.input-box .accept input {width:20px;float:left;margin-top:-6px;}
+
+/*文库*/
+.showpath {height: 35px;line-height: 35px;margin-top:10px;margin-bottom:-20px;}
+.submenu {line-height: 30px;border: 1px solid #eee;background: #fff;padding:30px;text-align: center;margin-top: 30px;} 
+.submenu dt { font-size: 14px;color:#999;}
+.submenu li {float:left;width:80px; text-algin:center;height:30px;}
+.active a {color:#f25807;}
+.line {border-top: dashed 1px #eee;padding-top:20px;}
+.sort {line-height: 50px;margin-top:30px;border: 1px solid #eee;background: #fff;height:50px;text-align: center;}
+.sort li {width:100px;float:left;border-right:dashed 1px #eee;}
+
+.readmore {margin-top:20px;}
+.list-margin-top {margin-top:10px;}
+/*shop*/
+.shopimage img {width:100%;}
+.singletop {padding:20px;line-height: 30px;}
+.pricebox {margin:30px 0;padding:20px; background: #fafafa;}
+.buy a {width:200px;height:30px;line-height: 30px;text-align: center;background: #f25807;color:#eee;display: block;}
+.buy,.colletion {margin-top:10px;}
+.colletion a {margin-right: 20px;}
+.content {padding:20px;}
+
+/*registration list*/
+.table dd:hover {background: #fafafa;}
+.registration a {display: block;width:80px;height:30px;line-height: 30px; }
+.registration a:hover {color:#fff;background: #f25807;}
+
+.table-div {display: table;background:#fff;border:solid 1px #eee;text-align:center;/*display: table时padding会失效*/  }
+.textlist .table-div dt {line-height: 60px;font-size: 14px;}
+.table-row {display: table-row;padding:20px;line-height:24px;/*display:table-row时margin、padding同时失效*/}
+.cell {display: table-cell;padding: 5px; border-bottom:solid 1px #eee;/*display: table-cell时margin会失效*/}
+
+.secondnav {background: #fff;height:40px;line-height: 40px;}
+.secondnav li {float:left;padding:0 20px;}
+
+
+
+/*user center*/
+.navbar-default.usercenter {background: #f25807;height:62px;padding-top:-15px;}
+.usercenter.navbar-brand {margin-top:-20px;}
+
+.user-navbar li { height:40px;line-height: 40px; }
+.user-navbar .active{background: #fffaf7;border-left: solid 3px #f25807;}
+.box-white { background: #fff; }
+.user-info {text-align: center;line-height: 20px;padding:20px 0;}
+.user-name {margin:5px 0;}
+.user-vip a {border-radius: 4px;border:solid 1px #45b0e4;color:#45b0e4;width:60px;text-align: center;margin:0 auto;display: block;}
+.user-menu li a {line-height:36px;padding-left:20px;height:36px;border-bottom: solid 1px #eee;display: block;}
+.user-active a,.user-menu li a:hover {background: #f79b6a;border-left:solid 5px #f35806;color:#fff;}
+.user-submenu a{ color:#f35806; font-weight:bold;}
+.user-menu i {font-style: normal;}
+.user-center {background:url(images/);}
+.user-content {padding:30px;min-height: 600px;}
+.user-content .table-div {text-align: left;}
+.user-content dt {height:30px;line-height:30px;font-size:16px; color:#999;}
+.user-content dd {height:30px;line-height: 20px;}
+.list-top {position: relative;z-index:1;top:-26px;}
+.list-top span {display: block;}
+.user-content .cell {border-bottom:none; padding:20px 10px;}
+.user-content .table-row  {background: #fafafa;}
+.settlement a {background: #f35806;display: block;width:80px;text-align: center;color:#fff;}
+.buy a {float:left;margin-left:20px;width:60px;}
+.to-pay a {display: block;background: #f35806;width:200px;height:38px;line-height:38px;text-align: center;color:#fff;}
+.upgrade {line-height: 30px;width:400px;}
+.upgrade div {padding:20px 0;}
+
+
+
+
