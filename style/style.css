@@ -18,6 +18,7 @@ header .navbar-collapse ul.navbar-nav {float: right; margin-right: 0;}
 .footer_nav li a {color:#666;border-right:solid 1px #999;display:block;padding:0 10px; float:left;line-height: 14px;}
 .copyright {margin-top:10px;color:#999;}
 .footer {background: #fafafa;padding-top:20px;}
+.pages { margin:0 auto; }
 /*以上是common CSS*/
 .elite {padding:30px 0;}
 .elite h3 {font-size: 22px;background: url(../images/icon.png) no-repeat 0 center;height:35px;text-indent: 28px;padding-top:5px;margin-bottom: 20px;}
@@ -119,6 +120,10 @@ header .navbar-collapse ul.navbar-nav {float: right; margin-right: 0;}
 .to-pay a {display: block;background: #f35806;width:200px;height:38px;line-height:38px;text-align: center;color:#fff;}
 .upgrade {line-height: 30px;width:400px;}
 .upgrade div {padding:20px 0;}
+
+/*用户资料页*/
+.profile span {color:red;height:26px;line-height: 26px;display: block;}
+.vip-icon {background: url(../images/vip.png) no-repeat;width:22px;height:24px;display:block;}
 
 
 
