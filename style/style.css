@@ -42,22 +42,18 @@ header .navbar-collapse ul.navbar-nav {float: right; margin-right: 0;}
 
 
 /*login&register*/
-.register {color:#666;padding:60px 0;margin:-30px 0;background: url(../images/login_bg.png);overflow: hidden;}
+.register {font-size:12px;color:#666;padding:60px 0;margin:-30px 0;background: url(../images/login_bg.png);overflow: hidden;}
+.register input {border-radius:0;font-size: 12px;}
+.register span {color:red;height:26px;line-height: 26px;display: block;}
 .register-box {width:800px;margin:0 auto;padding:20px;background: #fff;}
+.register-box label {padding:0;}
 .login {padding:80px 0;background-position:-100px center; }
 .login-box {width:360px;height:400px;padding:20px;background: #fff;float:right;}
 .input-box {width:320px;margin:0 auto;}
 .register h4 {text-align: center;margin-bottom:20px;font-weight: normal;}
-.register dl {clear: both;height:50px;line-height: 40px;}
-.register dt {float:left; width:80px;}
-.register dd {float:left;}
-.input-box input {width:220px;color:#999;}
-.register dd span {display: block;position: relative;z-index: 1;width:100%;color:red;height:30px;line-height: 30px;}
-.register .verify .input-text {width:160px;height:30px;line-height: 30px;}
-.register .verify i {font-style: normal;}
-.register .verify button {display: block;width:60px;background: #45b0e4;height: 30px;line-height: 30px;float:right;color:#fff;}
+.verify input {width:160px;height:30px;line-height: 30px;display: inline;}
+.verify button {width:60px;background: #45b0e4;height: 30px;line-height: 30px;color:#fff;border:solid 1px #45b0e4;}
 .submit {width:220px;background: #f35806;color:#fff;border-radius:0;border:none;padding:0;height: 30px;line-height: 30px;}
-.input-box .accept input {width:20px;float:left;margin-top:-6px;}
 
 /*文库*/
 .showpath {height: 35px;line-height: 35px;margin-top:10px;margin-bottom:-20px;}
